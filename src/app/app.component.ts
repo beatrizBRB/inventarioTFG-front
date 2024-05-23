@@ -1,14 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import { SessionTimeOut } from './services/sessionTimeOut.service';
-
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-
-export class AppComponent  {
-
- 
+export class AppComponent {
+  title = 'inventario-app';
 }
